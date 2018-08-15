@@ -12,7 +12,7 @@
         margin: 0 0 5px 0;
         background: #fff;
         @include easeOut;
-    } // Rotate Into X With Menu Lines
+    } //Rotate Into X With Menu Lines 
     &.close {
         transform: rotate(180deg);
         .btn-line {
