@@ -29,7 +29,7 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <title>About me</title>
+    <title>Contact Me</title>
 </head>
 
 <body>
@@ -52,7 +52,7 @@
                         Home
                     </a>
                 </li>
-                <li class="nav-item current">
+                <li class="nav-item">
                     <a href="about.html" class="nav-link">
                         About Me
                     </a>
@@ -62,7 +62,7 @@
                         My Work
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item current">
                     <a href="contact.html" class="nav-link">
                         How To Reach Me
                     </a>
@@ -71,54 +71,23 @@
         </nav>
     </header>
 
-    <main id="about">
+    <main id="contact">
         <h1 class="lg-heading">
-            About
+            Contact
             <span class="text-secondary">Me</span>
         </h1>
-        <h2 class="sm-heading" id="myTitle">
-            Let me tell you a few things...
+        <h2 id="myTitle" class="sm-heading">
+            This is how you can reach me...
         </h2>
-        <div class="about-info">
-            <img src="img/portrait.jpg" alt="John Doe" class="bio-image">
-            <div class="bio">
-                <h3 class="text-secondary">Bio</h3>
-                <h6>Full Stack Developer</h6>
-                <p>An experienced self motivated San Diego based Web Developer. Proficient in HTML, Javascript
-                    libraries (Angular, ES6, TypeScript)
-                    and CSS as well as the ability to communicate effectively in a team setting, and possessing a
-                    strong
-                    willingness to learn. With a strong background in sale, milestones and deadlines are at top of
-                    priority
-                    list.
-                </p>
+        <div class="boxes">
+            <div>
+                <span class="text-secondary">Email:</span> Edgarmchad2@gmail.com
             </div>
-
-
-            <div class="job job-1 ">
-                <h3>New Vision Information Systems Inc</h3>
-                <h6>Web Developer / Account Manager</h6>
-                <p>Responsible for coding. testing and implementing configuration changes and assisting in the design
-                    of software
-                    applications to meet both functional and technical requirements per client's requests.</p>
+            <div>
+                <span class="text-secondary">Phone:</span> 619.746.8818
             </div>
-
-            <div class="job job-2 ">
-                <h3>MAC Express LLC</h3>
-                <h6>Dispatch / Sales</h6>
-                <p>Maintain and expand relationships with carriers. Negotiate rates with brokers and supply chain
-                    managers.
-                </p>
-            </div>
-
-            <div class="job job-3 ">
-                <h3>BlueGrace Logistics</h3>
-                <h6>Freight Broker</h6>
-                <p>Maintain and expand relationships with carriers. Megotiate rates with carriers and customers.
-                    Identify, qualify
-                    and generate new business by adding and retaining clients to acheive set revenue and gross profit
-                    goals.
-                    Generate a minimum in sales goals weekly.</p>
+            <div>
+                <span class="text-secondary">City:</span> San Diego, CA
             </div>
 
         </div>
@@ -131,16 +100,8 @@
         </span>
     </footer>
 
-    <script src="js/main.js "></script>
-    <script src="js/baffle.js"></script>
-    <script>
-        const b = baffle("#myTitle", {
-            characters: '!@#$%^&*();/?',
-            speed: 50
-        });
-        b.start();
-        b.reveal(2000);
-    </script>
+    <script src="js/main.js"></script>
+
 
 </body>
 <script>
